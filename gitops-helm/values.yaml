@@ -1,0 +1,14 @@
+#Common
+label: gitops
+
+#Deployment
+replicas: 3
+image:
+  repository: asia.gcr.io/robotic-charmer-371101/china_gcp_learning # 変更箇所 DOCKERHUB_REPO_NAME
+  tag: 0523cb40493a1726fa6cfc7cb797543921a36fe8
+
+imageConfig:
+  pullPolicy: IfNotPresent
+
+#Service
+service_type: LoadBalancer

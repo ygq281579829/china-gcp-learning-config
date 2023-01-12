@@ -5,7 +5,7 @@ label: gitops
 replicas: 3
 image:
   repository: asia.gcr.io/robotic-charmer-371101/china_gcp_learning # 変更箇所 DOCKERHUB_REPO_NAME
-  tag: 170705d67b6829784458a324a518532f40f710dd
+  tag: d207fa4bcdfc5a8f3862a4fe6f1c088053759891
 
 imageConfig:
   pullPolicy: IfNotPresent

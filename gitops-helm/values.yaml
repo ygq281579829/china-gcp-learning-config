@@ -5,7 +5,7 @@ label: gitops
 replicas: 3
 image:
   repository: asia.gcr.io/pragmatic-ruler-374502/china_gcp_learning # 変更箇所 DOCKERHUB_REPO_NAME
-  tag: cf76fec95ca02018cad95546389db772b30e29ef
+  tag: 5e7575377cecd2ae304da9cd643b0fb832b452d3
 
 imageConfig:
   pullPolicy: IfNotPresent
